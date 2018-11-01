@@ -44,6 +44,25 @@ en-qu-ocker:
 
 
 ```ruby
+irb
+require 'rubygems'
+require 'faker'
+
+Faker::Address.city
+Faker::Address.street_name
+Faker::Address.street_address
+Faker::Address.secondary_address
+Faker::Address.zip_code
+Faker::Address.zip
+Faker::Address.postcode
+Faker::Address.street_suffix
+Faker::Address.city_suffix
+Faker::Address.city_prefix
+Faker::Address.state_abbr
+Faker::Address.state
+Faker::Address.state
+Faker::Address.country
+Faker::Address.country_code
 
 ```
 
