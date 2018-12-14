@@ -1,6 +1,10 @@
 ### faker
 ---
+.rb
 https://github.com/stympy/faker
+
+.py
+https://github.com/joke2k/faker
 
 ```sh
 gem install faker
