@@ -9,6 +9,9 @@ https://github.com/joke2k/faker
 ```sh
 gem install faker
 gem 'facker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
+tox
+python -m faker > docs.txt
 ```
 
 ```ruby
@@ -72,5 +75,11 @@ Faker::Address.country_code
 
 
 ```py
+from faker import Faker
+fake = Faker()
+fake.seed(4321)
+
+print(fake.name())
+
 
 ```
